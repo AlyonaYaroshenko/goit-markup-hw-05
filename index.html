@@ -39,7 +39,7 @@
         <div class="container">
            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
    <!-- button --> 
-           <button class="button">Заказать услугу</button>
+           <button class="button" data-modal-open>Заказать услугу</button>
        </div>
           </section>
    <!-- Advantages -->
@@ -261,7 +261,11 @@
     </div>
    </footer>
 <!-- modal window -->
-<div class="backdrop"><div class="modal"></div></div>
-
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-button" data-modal-close>X</button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
