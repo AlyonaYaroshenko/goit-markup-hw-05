@@ -755,6 +755,9 @@ img {
 }
 
 .modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   margin: 0;
   padding: 0;
