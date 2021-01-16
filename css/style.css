@@ -767,3 +767,12 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.modal-close {
+  fill: currentColor;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  color: var(--accent-color);
+}
