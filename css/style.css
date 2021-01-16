@@ -758,4 +758,5 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--white-color);
   border-radius: 50%;
+  cursor: pointer;
 }
